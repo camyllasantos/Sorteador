@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
         numeroMaximo = parseInt(numeroMaximo);
 
         let numeroAleatorio = Math.random() * numeroMaximo;
-        alert(numeroAleatorio);
+
+        document.getElementById('resultado-valor').innerText = numeroAleatorio;
     })
 })
